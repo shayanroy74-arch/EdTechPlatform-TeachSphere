@@ -1,0 +1,50 @@
+
+
+
+
+.footer {
+    background-color: black;
+    width: 100%;
+    min-height: 300px;
+    margin-top: 300px;
+    color: white;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    padding: 40px 20px;
+    box-sizing: border-box;
+}
+.social {
+    margin-bottom: 20px;
+}
+
+.social ul {
+    list-style: none;
+    padding: 0;
+}
+
+.social a {
+    display: block;
+    color: white;
+    text-decoration: none;
+    margin: 5px 0;
+    transition: color 0.3s ease;
+}
+
+.social a:hover {
+    color: gold;
+}
+
+.footer a {
+    color: white;
+    text-decoration: none;
+    margin: 5px 10px;
+    transition: color 0.3s ease;
+}
+
+.footer a:hover {
+    color: gold;
+}
