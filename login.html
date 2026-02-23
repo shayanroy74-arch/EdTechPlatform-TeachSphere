@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>LOGIN</title>
+</head>
+<body>
+   <header>
+    <h1>Welcome To TEACHSPHERE</h1>
+    <h2>Enter the log in details</h2>
+   </header>
+
+        <form action="/server" method="post">
+            <div>
+                <label>Category:</label>
+                <button>I'm a Student</button>
+                <button>I'm a Teacher</button>
+            </div>
+            <div> <!-- username input -->
+                <label for="username"> Username:</label>                  
+                <input type="text" 
+                placeholder="enter username" 
+                id="username" 
+                name="query" required/>
+            </div>
+            <div>
+                <!-- Password input -->
+             <label for="password"> Password:</label>   
+            <input type="password" 
+            placeholder="enter password" 
+            id="password" required/>                
+            </div>
+            
+            <div>
+                <!--choose u r student code-->
+                <label for="studentcode">Student Code:</label>
+                <input type="password" 
+                placeholder="student code" 
+                id="studentcode" required>
+            </div>
+            <div>
+                <!--choose u r teacher code-->
+                <label for="teachercode">Teacher Code:</label>
+                <input type="password" 
+                placeholder="teacher code" 
+                id="teachercode" required>
+            </div>
+            
+            <button type="submit"> LOGIN</button>
+            <button type="reset"> RESET</button>        
+          </form>
+        
+       
+</body>
+</html>

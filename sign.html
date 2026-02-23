@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SIGN UP</title>
+</head>
+<body>
+    <header>
+        <h1>Welcome To TEACHSPHERE</h1>
+        <h2>ENTER THE PERSONAL DETAILS</h2>
+    </header>
+
+    <main>
+        <form action="/submit" method="post">
+            <div>
+                <label>Category:</label>
+                <button>I'm a Student</button>
+                <button>I'm a Teacher</button>
+            </div>
+            <div>
+                <!-- Text input for name -->
+                <label for="name">Username:</label>
+                <input type="text" id="username" name="username" required>
+            </div>
+            <div>
+                <!-- Text input for password -->
+                <label for="name">Password:</label>
+                <input type="password" id="password" name="password" required>
+            </div>
+            <div>
+                 <!-- Radio buttons for gender -->
+                <label>Gender:</label>
+                <label for="male">Male</label>
+                <input type="radio" id="male" name="gender" value="male">
+                <label for="female">Female</label>
+                <input type="radio" id="female" name="gender" value="female">
+                
+            </div>
+            <div>
+                <label for="contact">Contact:</label>
+                <input type="tel" id="contact" name="contact" pattern="[0-9]{10}" required>
+            </div>
+            <div>
+                <label for="dob">DOB:</label>
+                <input type="date" id="date" name="date" required>
+            </div>
+            <div>
+                <label for="institution">Instituition:</label>
+                <select name="institution" id="institution">
+                    <option value="">--Select your Instituition--</option>
+                    <option value="i1">I1</option>
+                    <option value="i2">I2</option>
+                    <option value="i3">I3</option>
+                    <option value="i4">I4</option>
+                </select>
+            </div>
+            <div>
+                <label for="class">Class:</label>
+                <select name="class" id="class">
+                    <option value="">--Select your class--</option>
+                    <option value="1">1st Year</option>
+                    <option value="2">2nd Year</option>
+                    <option value="3">3rd Year</option>
+                    <option value="4">4th Year</option>
+                </select>
+            </div>
+            <div>
+                <label for="city">City:</label>
+                <select name="city" id="city" required>
+                    <option value="">--Select your City--</option>
+                    <option value="c1">c1</option>
+                    <option value="c2">c2</option>
+                    <option value="c3">c3</option>
+                    <option value="c4">c4</option>
+                </select>
+            </div>
+
+             <div>
+                <label for="experience">Experience:</label>
+                <select name="experience" id="experience">
+                    <option value="">--</option>
+                    <option value="1">1</option>
+                    <option value="2">2</option>
+                    <option value="3">3</option>
+                    <option value="4">4</option>
+                </select>
+            </div>
+
+             <div>
+                <label for="qualification">Qualification:</label>
+                <select name="qualification" id="qualification">
+                    <option value="">--Select your Qualification--</option>
+                    <option value="D1">D1</option>
+                    <option value="D2">D2</option>
+                    <option value="D3">D3</option>
+                    <option value="D4">D4</option>
+                </select>
+            </div>
+            
+
+            <div>
+                <!-- Submit button -->
+                 <button type="submit">Submit</button>
+                 <button type="reset">Reset</button>
+            </div>
+            
+           
+          </form>
+
+        
+        </main>
+    
+</body>
+</html>
