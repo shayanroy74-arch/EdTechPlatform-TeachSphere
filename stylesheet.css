@@ -6,7 +6,7 @@
 
 .body{
     color: aliceblue;
-    background-image: url("D:/DSA+WEBDEV/WEB DEV/PERSONAL PROJECT/bg.png");
+    background-image: url("bg.png");
     background-size:cover;        /* makes image cover full screen */
     background-position: center;   /* centers the image */
     background-repeat: no-repeat;  /* prevents repeating */
